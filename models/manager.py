@@ -7,3 +7,7 @@ class Manager(User):
 
     def work(self):
         return 'work do manager'
+
+    @staticmethod
+    def manger_func():
+        return 'alguma função do manager'

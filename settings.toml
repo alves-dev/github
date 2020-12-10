@@ -1,0 +1,11 @@
+[default]
+USER = 'alves-dev'
+API_BASE_URL = 'https://api.github.com'
+
+[development]
+USER = 'alves-dev'
+API_BASE_URL = 'https://api.github.com'
+
+[production]
+USER = 'alves-dev'
+API_BASE_URL = 'https://api.github.com'

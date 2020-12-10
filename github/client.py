@@ -1,10 +1,11 @@
 import requests
 import json
+from config import settings
 
 
 class GithubClient:
 
-    API_BASE_URL = 'https://api.github.com'
+    API_BASE_URL = settings.get('API_BASE_URL', default=None)
 
     @classmethod
     def get_repos_by_user(cls, user):

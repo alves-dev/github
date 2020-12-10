@@ -1,0 +1,6 @@
+
+# Ignore dynaconf secret files
+.secrets.*
+.env
+/report.md
+/report2.md
